@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<script> // функции
+<script>
 
 function getRandomInt(min, max) {
 	return Math.floor(Math.random() * (max - min + 1)) + min;
