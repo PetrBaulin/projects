@@ -60,18 +60,8 @@ public class GameWindow extends JFrame {
         long current_time = System.nanoTime();
         float delta_time = (current_time - last_frame_time) * 0.000000001f;
         last_frame_time = current_time;
-
         pepe_top = pepe_top + pepe_v * delta_time;
-
-
-
-
         fire_left = fire_left - fire_v * delta_time;
-
-
-
-
-
         g.drawImage(background, 0, 0, null);
         g.drawImage(fire,(int) fire_left,350,null);
         g.drawImage(pepe, (int) pepe_left, (int) pepe_top, null);
