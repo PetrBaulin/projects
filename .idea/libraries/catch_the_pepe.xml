@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="catch_the_pepe">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/java/catch_the_pepe/catch_the_pepe.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
